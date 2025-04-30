@@ -1,0 +1,199 @@
+[
+    {
+      "name": "Narendra Modi Stadium",
+      "city": "Ahmedabad",
+      "country": "India",
+      "capacity": 132000,
+      "description": "Located in Ahmedabad, Gujarat, India. It is one of the stadiums with the highest seating capacity."
+    },
+    {
+        "name": "Rajiv Gandhi International Stadium",
+        "city": "Hyderabad",
+        "country": "India",
+        "capacity": 39000,
+        "description": "This is located in Hyderabad, India and also known as Uppal Stadium."
+      },
+      {
+      "name": "Melbourne Cricket Ground",
+      "city": "Melbourne",
+      "country": "Australia",
+      "capacity": 100024,
+      "description": "This is located in Melbourne, Australia."
+    },
+    {
+      "name": "Eden Gardens",
+      "city": "Kolkata",
+      "country": "India",
+      "capacity": 68000,
+      "description": "Established in 1864, it is the oldest and third largest ground in the world."
+    },
+    {
+      "name": "Lord's",
+      "city": "London",
+      "country": "England",
+      "capacity": 31100,
+      "description": "Regarded as the home of cricket and located in England.It is the largest Ground in England."
+    },
+    {
+        "name": "MA Chidambaram Stadium",
+        "city": "Chennai",
+        "country": "India",
+        "capacity": 38200,
+        "description": "It is located in Chennai,India and has the one of the best pitchs for Bowling.It is also called Chepauk Stadium"
+      },
+      {
+        "name": "Sawai Mansingh Stadium",
+        "city": "Jaipur",
+        "country": "India",
+        "capacity": 30000,
+        "description": "It is located in Jaipur,India."
+      },
+      {
+        "name": "Bharat Ratna Shri atal Bihari Vajpayee Cricket Stadium",
+        "city": "Lucknow",
+        "country": "India",
+        "capacity": 50000,
+        "description": "It is located in Lucknow,India and it is the fifth largest international stadium in India.It is also called as Ekana Cricket Stadium."
+      },
+      {
+        "name": "Arun Jaitley Stadium",
+        "city": "Delhi",
+        "country": "India",
+        "capacity": 35200,
+        "description": "It is located in Delhi,India and One of the Oldest Grounds in India."
+      },
+      {
+        "name": "M.Chinnaswamy Stadium",
+        "city": "Bengaluru",
+        "country": "India",
+        "capacity": 40000,
+        "description": "It is located in Bengaluru, India and regarded as one of the best grounds."
+      },
+      {
+        "name": "Wankhede Stadium",
+        "city": "Mumbai",
+        "country": "India",
+        "capacity": 33100,
+        "description": "It is located in Mumbai,India and it is the house of the Headquarters for Board of Control for Cricket in India(BCCI)."
+      },
+      {
+        "name": "Punjab Cricket Association IS Bindra Stadium",
+        "city": "Mohali",
+        "country": "India",
+        "capacity": 27000,
+        "description": "It is located in Mohali,Punjab and it is referred as Mohali stadium rather than it's name."
+      },
+      {
+        "name": "Himachal Pradesh Cricket Association Stadium",
+        "city": "Dharamsala",
+        "country": "India",
+        "capacity": 21200,
+        "description": "It is located in Dharamshala, India and it is the Highest Stadium in the world."
+      },
+      {
+        "name": "Maharashtra Cricket Association Stadium",
+        "city": "Pune",
+        "country": "India",
+        "capacity": 42700,
+        "description": "It is located in Pune,India and has regarded to the one of the best stadiums for international cricket."
+      },
+      {
+        "name": "Kennington Oval",
+        "city": "London",
+        "country": "England",
+        "capacity": 27500,
+        "description": "It is located in Kennington, London,England and had hosted many historical cricket matches."
+      },
+      {
+        "name": "Old Trafford",
+        "city": "Trafford",
+        "country": "England",
+        "capacity": 26000,
+        "description": "It is located in Trafford,Manchester,England and it is established in 1857 having 168 years history."
+      },
+      {
+        "name": "Trent Bridge",
+        "city": "West Bridgford",
+        "country": "England",
+        "capacity": 17500,
+        "description": "It is located in West Brigford, England and is one of the best grounds in the world."
+      },
+      {
+        "name": "Headingley",
+        "city": "West Bridgford",
+        "country": "England",
+        "capacity": 18350,
+        "description": "It is located in West West Bridgford,Leeds, England and is one of the best grounds in the world."
+      },
+      {
+        "name": "Edgbaston",
+        "city": "Edgbaston",
+        "country": "England",
+        "capacity": 25000,
+        "description": "It is located in Edgbaston, Birmingham, England and is Fourth Largest ground in England."
+      },
+      {
+        "name": "Bellerive Oval",
+        "city": "Hobart",
+        "country": "Australia",
+        "capacity": 19500,
+        "description": "This is located in Hobart, Australia."
+      },
+      {
+        "name": "Junction Oval",
+        "city": "St Kilda,Melbourne",
+        "country": "Australia",
+        "capacity": 100024,
+        "description": "This is located in St Kilda, Melbourne, Australia and one of the historic Grounds of cricket."
+      },
+      {
+        "name": "W.A.C.A. Ground",
+        "city": "Perth",
+        "country": "Australia",
+        "capacity": 20000,
+        "description": "This is located in Perth, Australia and One of the best Grounds in the world."
+      },
+      {
+        "name": "Brisbane Cricket Ground",
+        "city": "Brisbane",
+        "country": "Australia",
+        "capacity": 37000,
+        "description": "This is located in Brisbane,Queensland, Australia and also known as The Gabba."
+      },
+      {
+        "name": "Adelaide Oval",
+        "city": "Adelaide",
+        "country": "Australia",
+        "capacity": 53500,
+        "description": "This is located in Adelaide, Australia."
+      },
+      {
+        "name": "Sydney Cricket Ground",
+        "city": "Sydney",
+        "country": "Australia",
+        "capacity": 48000,
+        "description": "This is located in Sydney, Australia."
+      },
+      {
+        "name": "Gaddafi Stadium",
+        "city": "Lahore",
+        "country": "Pakistan",
+        "capacity": 35000,
+        "description": "This is located in Lahore, Pakistan and is the headquarters of Pakistan Cricket Board."
+      },
+      {
+        "name": "Multan Cricket Stadium",
+        "city": "Multan",
+        "country": "Pakistan",
+        "capacity": 30000,
+        "description": "This is located in Multan, Pakistan."
+      },
+      {
+        "name": "National Stadium",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "capacity": 30000,
+        "description": "This is located in Karachi, Pakistan."
+      }
+  ]
+  
