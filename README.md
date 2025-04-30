@@ -37,34 +37,6 @@ This is a SvelteKit-based web application that allows users to search for cricke
   - `cricbuzz-cricket.p.rapidapi.com` for match data
   - `api.openweathermap.org` for weather data
 
----
-
-## 📁 Project Structure
-src/
-├── routes/
-│ ├── matches/  
-│ │         ├──+server.ts
-│ ├── api/
-│ │      ├── cricket/+server.ts 
-│ │      └── weather/+server.ts  
-│ └── weather/
-│ │      └── +page.svelte  
-│ ├── +layout.svelte 
-│ └──  +page.svelte
-├─components/ 
-│           ├── CitySearch.svelte
-│           ├── VenueInfo.svelte 
-│           ├── WeatherCard.svelte
-│           ├── MatchCard.svelte
-│           └── ErrorMessage.svelte
-└──lib/
-    └── data/venues.json # Static data for stadiums
-
-
-
-
----
-
 ## 🔑 API Keys
 
 - **RapidAPI (Cricbuzz) Key**
