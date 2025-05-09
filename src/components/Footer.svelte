@@ -1,7 +1,4 @@
-<!-- <footer class="bg-gray-100 text-center text-sm text-gray-600 py-3 mt-6">
-    &copy; {new Date().getFullYear()} Cricket Weather App. All rights reserved.
-  </footer>
-   -->
+
    <div style="display: flex; flex-direction: column; min-height: 100vh;">
     <main style="flex-grow: 1;">
       <!-- Your main content -->
