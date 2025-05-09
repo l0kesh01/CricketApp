@@ -5,6 +5,7 @@
 	import MatchCard from '../../components/MatchCard.svelte';
 	import ErrorMessage from '../../components/ErrorMessage.svelte';
 	import venues from '$lib/data/venues.json';
+	import LoadingSpinner from '../../components/LoadingSpinner.svelte';
 
 	type Venue = {
 		name: string;
@@ -143,7 +144,7 @@
 	<CitySearch on:search={handleSearch} />
 
 	{#if isLoading}
-		<p class="text-center text-blue-600 mt-4">Loading...</p>
+		<LoadingSpinner />
 	{/if}
 
 	{#if error}
@@ -151,14 +152,11 @@
 	{/if}
 
 	{#if selectedVenue}
-		<div class="max-w-2xl mx-auto mt-6">
+		<div class="max-w-5xl mx-auto mt-6 flex flex-col md:flex-row gap-4">
 			<VenueInfo venue={selectedVenue} />
-		</div>
-	{/if}
-
-	{#if weather}
-		<div class="max-w-md mx-auto mt-6">
-			<WeatherCard weatherData={weather} />
+			{#if weather}
+				<WeatherCard weatherData={weather} />
+			{/if}
 		</div>
 	{/if}
 
@@ -168,22 +166,10 @@
 		</h2>
 
 		{#each matches as match}
-			<div class="border rounded-xl shadow-md p-6 mb-4 bg-white">
-				<h3 class="text-lg font-semibold text-blue-800">{match.seriesName}</h3>
-				<p class="text-md text-gray-700">{match.team1} vs {match.team2}</p>
-				<p class="text-sm text-gray-600">Venue: {match.venue} ({match.city})</p>
-				<p class="text-sm text-gray-600">Start Time: {match.startTime.toLocaleString()}</p>
-				<p class="text-sm text-green-600">Status: {match.status}</p>
-
-				{#if match.team1Score}
-					<p class="text-sm text-gray-700">{match.team1}: {match.team1Score}</p>
-				{/if}
-				{#if match.team2Score}
-					<p class="text-sm text-gray-700">{match.team2}: {match.team2Score}</p>
-				{/if}
-			</div>
+			<MatchCard {match} />
 		{/each}
 	{:else if selectedVenue}
 		<p class="text-center text-gray-600 mt-4">No matches found at this venue.</p>
 	{/if}
 </div>
+
