@@ -51,10 +51,10 @@
 	font-weight: bold;
 }
 .navbar li.active a {
-	color: #e3df21; /* Yellow or your preferred active color */
+	color: #e3df21; 
 }
 .navbar li a:hover {
-	color: #ffc107; /* Optional: lighter yellow on hover */
+	color: #ffc107; 
 }
 
 </style>
