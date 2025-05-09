@@ -140,7 +140,7 @@
 
 <div class="min-h-screen bg-white px-4 py-10">
 	<h1 class="text-3xl font-bold text-blue-800 text-center mb-6">Search Matches by City</h1>
-
+	<p> Just check the venue </p>
 	<CitySearch on:search={handleSearch} />
 
 	{#if isLoading}
