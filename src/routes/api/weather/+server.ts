@@ -3,7 +3,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 import.meta.env.VITE_OPENWEATHER_API_KEY
 export const GET: RequestHandler = async ({ url }) => {
 	const city = url.searchParams.get('city') ?? 'Hyderabad';
-	const apiKey = '7a66b18c611c5749ef49549538076c7d'; // make sure your actual key is here
+	const apiKey = '7a66b18c611c5749ef49549538076c7d';
 	const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 	try {
