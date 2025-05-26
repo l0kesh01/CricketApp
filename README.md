@@ -1,38 +1,54 @@
-# sv
+# 🏏 Cricket-Weather App 🌤️
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a SvelteKit-based web application that allows users to search for cricket matches by city, view upcoming, live, and recently completed matches at specific venues, and get the current weather for the venue's location.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Features
 
-```bash
-# create a new project in the current directory
-npx sv create
+- 🔍 **Search Matches by City**  
+  Type any city to find all relevant matches at nearby venues.
 
-# create a new project in my-app
-npx sv create my-app
-```
+- 🗓️ **Match Categories**  
+  - Recent Matches (past 2 days)  
+  - Live Matches (ongoing games)  
+  - Upcoming Matches (next 5–15 days)
 
-## Developing
+- ☁️ **Live Weather Information**  
+  Real-time weather for the selected venue using OpenWeather API.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- 🧾 **Match Details**
+  - Team names
+  - Scores
+  - Match start time
+  - Match status (Live / Completed / Upcoming)
 
-```bash
-npm run dev
+- 📡 **Real API Integration**
+  - [Cricbuzz Cricket API via RapidAPI](https://rapidapi.com/)
+  - [OpenWeather API](https://openweathermap.org/)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## 🏗️ Tech Stack
 
-To create a production version of your app:
+- **Frontend Framework**: [SvelteKit](https://kit.svelte.dev/)
+- **Languages**: TypeScript, HTML, CSS
+- **APIs**:
+  - `cricbuzz-cricket.p.rapidapi.com` for match data
+  - `api.openweathermap.org` for weather data
 
-```bash
-npm run build
-```
+## 🔑 API Keys
 
-You can preview the production build with `npm run preview`.
+- **RapidAPI (Cricbuzz) Key**
+  - Used to fetch cricket match data
+  - Endpoints used:
+    - `/matches/v1/recent`
+    - `/matches/v1/live`
+    - `/matches/v1/upcoming`
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- **OpenWeather API Key**
+  - Used to fetch weather data for a venue's city
+
+
+
+
